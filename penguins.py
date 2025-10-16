@@ -4,7 +4,8 @@ import csv
 from pathlib import Path
 from statistics import mean
 
-
+##Generative AI was consulted for small parts of the code, but everything is our work and works the way we want it to.##
+##Grady Karp and Judd Gurtman worked together on ths project"
 
 
 def to_float(x):
@@ -44,7 +45,7 @@ def avg_bodymass_by_species_sex(rows: list[dict]) -> list[tuple]:
         sex_raw = (r.get("sex") or "").strip()
         if sex_raw.lower() in {"", "na", "nan", "none", "null"}:
             continue
-        sex = sex_raw.title()  # "Male"/"Female"
+        sex = sex_raw.title()  
         mass = to_float(r.get("body_mass_g"))
         if not species or mass is None:
             continue
@@ -73,7 +74,7 @@ def avg_flipper_by_species_island(rows: list[dict]) -> list[tuple]:
    return sorted(out, key=lambda t: (t[0], t[1]))
 
 
-"Make the script"
+#Make the script#
 if __name__ == "__main__":
    rows = read_penguins("data/Penguins.csv")
 
