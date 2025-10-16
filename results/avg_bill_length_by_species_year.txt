@@ -1,0 +1,10 @@
+species	year	avg_bill_length_mm
+Adelie	2007	38.82
+Adelie	2008	38.56
+Adelie	2009	38.98
+Chinstrap	2007	48.72
+Chinstrap	2008	48.7
+Chinstrap	2009	49.05
+Gentoo	2007	47.01
+Gentoo	2008	46.94
+Gentoo	2009	48.5

@@ -1,0 +1,7 @@
+island	sex	avg_body_mass_g
+Biscoe	Female	4319.4
+Biscoe	Male	5104.5
+Dream	Female	3446.3
+Dream	Male	3987.1
+Torgersen	Female	3395.8
+Torgersen	Male	4034.8
